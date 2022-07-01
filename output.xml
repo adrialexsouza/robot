@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.10.5 on win32)" generated="20220630 23:03:12.819" rpa="false" schemaversion="3">
+<suite id="s1" name="Amazzon Testes" source="C:\CursoRobotFrame\Robotframew\WebTestingRobot\amazzon_testes.robot">
+<test id="s1-t1" name="Caso de Teste 01 - acesso ao menu &quot;Livros&quot;" line="10">
+<status status="FAIL" starttime="20220630 23:03:14.292" endtime="20220630 23:03:14.294">Test contains no keywords.</status>
+</test>
+<test id="s1-t2" name="[Documentation]" line="11">
+<kw name="Abrir o navegador" library="amazzon_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220630 23:03:14.299" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20220630 23:03:14.299" endtime="20220630 23:03:17.369"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220630 23:03:17.370" endtime="20220630 23:03:17.663"/>
+</kw>
+<status status="PASS" starttime="20220630 23:03:14.298" endtime="20220630 23:03:17.663"/>
+</kw>
+<kw name="Esse teste verifica o menu Livros do site da amazon.com.br">
+<arg>E verifica a categoria Loja de Livros</arg>
+<msg timestamp="20220630 23:03:17.743" level="FAIL">No keyword with name 'Esse teste verifica o menu Livros do site da amazon.com.br' found.</msg>
+<status status="FAIL" starttime="20220630 23:03:17.742" endtime="20220630 23:03:17.743"/>
+</kw>
+<status status="FAIL" starttime="20220630 23:03:14.297" endtime="20220630 23:03:17.746">No keyword with name 'Esse teste verifica o menu Livros do site da amazon.com.br' found.</status>
+</test>
+<test id="s1-t3" name="[Tags]" line="13">
+<kw name="Abrir o navegador" library="amazzon_resources" type="SETUP">
+<kw name="Open Browser" library="SeleniumLibrary">
+<arg>browser=chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<msg timestamp="20220630 23:03:17.776" level="INFO">Opening browser 'chrome' to base url 'None'.</msg>
+<status status="PASS" starttime="20220630 23:03:17.776" endtime="20220630 23:03:20.429"/>
+</kw>
+<kw name="Maximize Browser Window" library="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" starttime="20220630 23:03:20.430" endtime="20220630 23:03:20.774"/>
+</kw>
+<status status="PASS" starttime="20220630 23:03:17.775" endtime="20220630 23:03:20.774"/>
+</kw>
+<kw name="menus">
+<msg timestamp="20220630 23:03:20.835" level="FAIL">No keyword with name 'menus' found.</msg>
+<status status="FAIL" starttime="20220630 23:03:20.835" endtime="20220630 23:03:20.835"/>
+</kw>
+<kw name="Acessar a home page do site amazon.com.br" library="amazzon_resources">
+<status status="NOT RUN" starttime="20220630 23:03:20.844" endtime="20220630 23:03:20.844"/>
+</kw>
+<status status="FAIL" starttime="20220630 23:03:17.770" endtime="20220630 23:03:20.846">No keyword with name 'menus' found.</status>
+</test>
+<doc>Essa suíte testa o site da amazon.com.br</doc>
+<status status="FAIL" starttime="20220630 23:03:12.823" endtime="20220630 23:03:20.850"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="3" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="3" skip="0" id="s1" name="Amazzon Testes">Amazzon Testes</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
